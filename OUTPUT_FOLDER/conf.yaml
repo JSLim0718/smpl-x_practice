@@ -133,5 +133,5 @@ use_hands: true
 use_joints_conf: true
 use_pca: true
 use_vposer: true
-visualize: false
+visualize: true
 vposer_ckpt: VPOSER_FOLDER

@@ -2,78 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ccf102e-a8fa-42d7-93b2-e8141e71fdc6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/smplify_x.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA_FOLDER/images/WIN_20221021_13_24_22_Pro.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA_FOLDER/keypoints/WIN_20221021_13_24_22_Pro_keypoints.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DATA_FOLDER/keypoints/WIN_20221021_13_24_22_Pro_rendered.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OUTPUT_FOLDER/conf.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VPOSER_FOLDER/TR00_004_00_WO_accad.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VPOSER_FOLDER/snapshots/TR00_E096.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VPOSER_FOLDER/version.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/VPOSER_FOLDER/vposer_smpl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cfg_files/fit_smpl.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cfg_files/fit_smplh.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cfg_files/fit_smplx.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/optional-requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/camera.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/cmd_parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/data_parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/fit_single_frame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/fitting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/body_model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/body_model/body_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/body_model/body_model_vposer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/body_model/lbs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/body_model/parts_segm/readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/body_model/parts_segm/smplh/parts_segm.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/data/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/data/dataloader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/data/prepare_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/mesh/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/mesh/mesh_viewer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/mesh/sphere.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/optimizers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/optimizers/lbfgs_ls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/optimizers/readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/tools/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/tools/model_loader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/tools/omni_tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/tools/training_tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/tools/visualization_tools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/train/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/train/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/train/vposer_single_trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/train/vposer_smpl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/human_body_prior/train/vposer_smpl_defaults.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/mesh_viewer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/optimizers/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/optimizers/lbfgs_ls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/optimizers/optim_factory.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/prior.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/render_pkl.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/render_results.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/torch_mesh_isect" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/smplifyx/torch_mesh_isect/__init__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/smplifyx/torch_mesh_isect/examples/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplifyx/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplx_debug/conf.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/smplx_parts_segm.pkl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/human-body-prior" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/smplify_x.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/smplify_x.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OUTPUT_FOLDER/conf.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/OUTPUT_FOLDER/conf.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/smplifyx/torch_mesh_isect" beforeDir="false" afterPath="$PROJECT_DIR$/smplifyx/torch_mesh_isect" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/smplifyx/torch_mesh_isect/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/smplifyx/torch_mesh_isect/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/smplifyx/torch_mesh_isect/mesh_intersection/bvh_search_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/smplifyx/torch_mesh_isect/mesh_intersection/bvh_search_tree.py" afterDir="false" />
     </list>
@@ -83,7 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/smplifyx/torch_mesh_isect" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -111,7 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672931060391</updated>
       <workItem from="1672931062508" duration="70000" />
-      <workItem from="1672931139945" duration="1007000" />
+      <workItem from="1672931139945" duration="2598000" />
     </task>
     <servers />
   </component>
@@ -123,7 +57,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
